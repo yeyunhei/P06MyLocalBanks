@@ -8,7 +8,11 @@
     <string name="dbschi">星展银行</string>
     <string name="ocbcchi">华侨银行</string>
     <string name="uobchi">大华银行</string>
-
-
+    <string name="dbsurl">https://www.dbs.com.sg/index/default.page</string>
+    <string name="dbsphone">18001111111</string>
+    <string name="ocbcurl">https://www.ocbc.com/group/gateway</string>
+    <string name="ocbcphone">18003633333</string>
+    <string name="uoburl">https://www.uobgroup.com/uobgroup/default.page</string>
+    <string name="uobphone">18002222121</string>
 
 </resources>

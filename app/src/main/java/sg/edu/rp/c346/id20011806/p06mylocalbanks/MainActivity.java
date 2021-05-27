@@ -60,11 +60,11 @@ public class MainActivity extends AppCompatActivity {
         if(bankChosen.equalsIgnoreCase("dbs")) {
             if(item.getItemId() == 0) {
                 i.setAction(Intent.ACTION_VIEW);
-                i.setData(Uri.parse("https://www.dbs.com.sg/index/default.page"));
+                i.setData(Uri.parse(getString(R.string.dbsurl)));
                 startActivity(i);
             } else if (item.getItemId() == 1) {
                 i.setAction(Intent.ACTION_DIAL);
-                i.setData(Uri.parse("tel:18001111111"));
+                i.setData(Uri.parse("tel:"+getString(R.string.dbsphone)));
                 startActivity(i);
             } else {
                 if (!favouriteDBS) {
@@ -78,11 +78,11 @@ public class MainActivity extends AppCompatActivity {
         } else if (bankChosen.equalsIgnoreCase("ocbc")) {
             if (item.getItemId() == 0) {
                 i.setAction(Intent.ACTION_VIEW);
-                i.setData(Uri.parse("https://www.ocbc.com/group/gateway"));
+                i.setData(Uri.parse(getString(R.string.ocbcurl)));
                 startActivity(i);
             } else if (item.getItemId() == 1){
                 i.setAction(Intent.ACTION_DIAL);
-                i.setData(Uri.parse("tel:18003633333"));
+                i.setData(Uri.parse("tel:"+getString(R.string.ocbcphone)));
                 startActivity(i);
             } else {
                 if (!favouriteOCBC) {
@@ -96,11 +96,11 @@ public class MainActivity extends AppCompatActivity {
         } else if (bankChosen.equalsIgnoreCase("uob")) {
             if(item.getItemId() == 0) {
                 i.setAction(Intent.ACTION_VIEW);
-                i.setData(Uri.parse("https://www.uobgroup.com/uobgroup/default.page"));
+                i.setData(Uri.parse(getString(R.string.uoburl)));
                 startActivity(i);
             } else if (item.getItemId() == 1) {
                 i.setAction(Intent.ACTION_DIAL);
-                i.setData(Uri.parse("tel:18002222121"));
+                i.setData(Uri.parse("tel:"+getString(R.string.uobphone)));
                 startActivity(i);
             } else {
                 if (!favouriteUOB) {
