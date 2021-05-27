@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">P06My Local Banks</string>
+    <string name="dbs">DBS</string>
+    <string name="ocbc">OCBC</string>
+    <string name="uob">UOB</string>
+    <string name="eng">English</string>
+    <string name="chi">Chinese</string>
+    <string name="dbschi">星展银行</string>
+    <string name="ocbcchi">华侨银行</string>
+    <string name="uobchi">大华银行</string>
+
+
+
+</resources>
